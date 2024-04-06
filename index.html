@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <article class="article__section">
+        <section class="calander__top">
+            <button onclick="previousMonth()">Vorige maand</button>
+            <span id="currentMonth" class="currentMonth"></span>
+            <button onclick="nextMonth()">Volgende maand</button>
+        </section>
+        <table id="calendar"></table>
+    </article>
+
+</body>
+</html>

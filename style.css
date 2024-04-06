@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
+}
+
+.article__section{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.calander__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+td{
+    border: 1px solid black;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
+th{
+    width: 70%;
+    font-size: 1.6rem;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.currentMonth{
+    font-size: 2rem;
+    color: blue;
+}
+
+.selected {
+    background-color: blue;
+    color: white;
+}
+
+.disabled {
+    color: lightgrey;
+}
